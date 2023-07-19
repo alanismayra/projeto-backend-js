@@ -8,7 +8,7 @@ const Mulher = require('./mulherModel')
 
 const app = express() //aqui estou iniciando o app
 app.use(express.json())
-app.listen(cors())
+app.use(cors())
 const porta = 3333 //aqui estou criando a porta
 
 
